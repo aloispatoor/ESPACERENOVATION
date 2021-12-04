@@ -1,0 +1,17 @@
+#contact{
+    text-align:center;
+    h3{
+        text-transform: uppercase;
+        font-size:1em;
+        font-weight:bold;
+    }
+    .container-fluid{
+        a{
+            color:$primaryColor;
+            transition: all 0.3s ease-in;
+        }
+        a:hover{
+            color:$yellowColor;
+        }
+    }
+}

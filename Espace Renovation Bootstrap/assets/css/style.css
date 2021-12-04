@@ -1,0 +1,229 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto_light;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+body {
+  font-family: roboto;
+  color: #112e3e;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 2%;
+}
+
+h6 {
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 15px;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #112e3e;
+  font-size: 1.2em;
+  padding: 10px 2%;
+  transition: all 0.3s ease-in;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #112e3e;
+  opacity: 0.8;
+}
+
+header .navbar {
+  background-color: #112e3e;
+  padding: 0 10%;
+  height: 20vh;
+}
+header .navbar img {
+  width: 20%;
+}
+header .navbar ul li {
+  padding: 0 2%;
+  border-right: 1px solid white;
+}
+header .navbar ul li:last-child {
+  border: none;
+}
+header .navbar a {
+  display: inline;
+  color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.3s ease-in;
+}
+header .navbar a:hover {
+  color: #edd154;
+}
+header .navbar #navbarNavDropdown {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+#carouselExampleCaptions img {
+  height: 50vh;
+  object-fit: cover;
+}
+#carouselExampleCaptions h5 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+#carouselExampleCaptions .yellowFont {
+  color: #edd154;
+}
+
+#presentation {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#presentation p {
+  text-align: center;
+}
+#presentation p span {
+  font-weight: bold;
+}
+
+#rendezVous {
+  text-align: center;
+}
+#rendezVous h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#realisations {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+#realisations p {
+  text-transform: uppercase;
+}
+#realisations .container {
+  margin-bottom: 2%;
+}
+#realisations .container h3 {
+  font-weight: bold;
+  padding-top: 2%;
+}
+
+#contact {
+  text-align: center;
+}
+#contact h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+}
+#contact .container-fluid a {
+  color: #112e3e;
+  transition: all 0.3s ease-in;
+}
+#contact .container-fluid a:hover {
+  color: #edd154;
+}
+
+footer {
+  background-color: #112e3e;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 5px;
+}
+footer p {
+  font-size: 1.2em;
+  line-height: 110%;
+}
+footer p i {
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+footer .container {
+  padding-bottom: 2%;
+}
+footer .container .col-4:nth-child(2) {
+  padding-top: 2%;
+}
+footer .container .col-4:last-child {
+  border-left: 1px solid white;
+}
+
+.lastWords {
+  text-align: center;
+}
+.lastWords a {
+  color: white;
+  transition: all 0.3s ease-in;
+}
+.lastWords a:hover {
+  color: #edd154;
+}
+
+@media screen and (max-width: 1000px) {
+  header .navbar ul li {
+    border: none;
+  }
+
+  footer p {
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2%;
+  }
+  footer img {
+    width: 50%;
+  }
+  footer h6 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  .navbar {
+    padding-bottom: 5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

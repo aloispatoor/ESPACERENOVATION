@@ -1,0 +1,44 @@
+@media screen and (max-width:1000px){
+    header{
+        .navbar{
+            ul{
+                li{
+                    border:none;
+                }
+            }
+        }
+    }
+    footer{
+        p{
+            font-size:1em;
+            text-align:center;
+            padding-top:2%;
+        }
+        img{
+            width:50%;
+        }
+        h6{
+            text-align:center;
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    p{
+        font-size:12px;
+    }
+    h3{
+        font-size:14px;
+    }
+    h2{
+        font-size:1.2em;
+    }
+    footer{
+        p{
+            font-size:12px;
+        }
+    }
+    .navbar{
+        padding-bottom:5%;
+    }
+}
